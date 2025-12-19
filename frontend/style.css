@@ -1,0 +1,4 @@
+body { font-family: Arial; padding: 30px; }
+form { width: 300px; display: flex; flex-direction: column; }
+input, select, button { margin: 5px 0; padding: 5px; }
+pre { background: #eee; padding: 10px; white-space: pre-wrap; }

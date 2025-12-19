@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyApp PaaS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Déployer une application</h2>
+
+<form id="form">
+  <label>Framework</label>
+  <select id="framework">
+    <option value="django">Django</option>
+    <option value="node">NodeJS</option>
+    <option value="laravel">Laravel</option>
+  </select>
+
+  <label>GitHub URL</label>
+  <input id="git_url" placeholder="https://github.com/ichrakismail289-max/myapp.git">
+
+  <button type="button" id="deployBtn">Déployer</button>
+</form>
+
+<pre id="result"></pre>
+
+<script src="main.js"></script>
+</body>
+</html>

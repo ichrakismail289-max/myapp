@@ -1,0 +1,6 @@
+venv/
+*.pyc
+__pycache__/
+*.log
+id_rsa
+id_rsa.pub
